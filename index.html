@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Salman - AI & Cybersecurity Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles from previous code */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in { animation: fadeIn 1s ease-out; }
+        .project-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .project-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+        .gradient-bg { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        .profile-img { border: 5px solid #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+        .cert-badge { font-size: 0.9rem; margin: 2px; }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fs-3 fw-bold" href="#">Mahmoud Salman</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link fs-5" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#certs">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#goals">Goals</a></li>
+                <li class="nav-item"><a class="nav-link fs-5" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="gradient-bg text-white text-center py-5 vh-100 d-flex align-items-center">
+    <div class="container fade-in">
+        <img src="MyPic.png" alt="Mahmoud Salman" 
+             class="profile-img rounded-circle mb-4" 
+             style="width: 200px; height: 200px; object-fit: cover;">
+        <h1 class="display-4 fw-bold mb-3">Mahmoud Salman</h1>
+        <p class="lead fs-4 mb-4">AI Student Specialized in Cybersecurity | SOC Analyst Tier1</p>
+        <div class="fs-5 mb-4">
+            <a href="https://github.com/Mahmoudsalman11" target="_blank" class="text-white"><i class="fab fa-github mx-2"></i></a>
+            <a href="https://tryhackme.com/p/Mahmoudasem44" target="_blank" class="text-white"><i class="fas fa-shield-alt mx-2"></i></a>
+            <a href="https://www.linkedin.com/in/mahmoud-salman-30b1a1279/" target="_blank" class="text-white"><i class="fab fa-linkedin mx-2"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">🎯 Objective</h2>
+        <blockquote class="blockquote fs-5 text-muted text-center">
+            "As an AI-driven cybersecurity enthusiast, I leverage certifications in CCNA, CyberOps, and Incident Response to secure intelligent systems through ethical hacking, network defense, and machine learning. Passionate about bridging AI innovation with robust security practices, I aim to develop resilient solutions while advancing my expertise in threat detection, penetration testing, and secure system design. Eager to contribute to cutting-edge projects and collaborate on AI-powered cybersecurity initiatives."
+        </blockquote>
+        
+        <h2 class="mt-5 mb-4 fs-2">👋 Introduction</h2>
+        <p class="lead fs-5">
+            Hello! I’m Mahmoud, a third-year Artificial Intelligence student at the Faculty of AI in Egypt, merging cutting-edge AI expertise with a deep passion for cybersecurity. My focus lies in securing intelligent systems through ethical hacking, network defense, and machine learning. Whether it’s building CNNs for computer vision or dissecting vulnerabilities in CTF labs, I’m driven to innovate at the intersection of AI and cybersecurity.
+        </p>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">📚 Education</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title fs-3">Bachelor’s in Artificial Intelligence</h3>
+                <p class="card-subtitle mb-3 text-muted fs-5">Faculty of AI, Egypt | 2021–2025 (Third Year) | GPA: 3.23/4.0</p>
+                <h4 class="mt-4 fs-4">Key Courses:</h4>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-primary">Neural Networks</span>
+                    <span class="badge bg-success">Cybersecurity Fundamentals</span>
+                    <span class="badge bg-danger">Computer Vision</span>
+                    <span class="badge bg-warning text-dark">Network Protocols</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">🛠️ Skills</h2>
+        <div class="row g-4">
+            <!-- Technical Skills -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Technical Skills</h5>
+                        <ul class="list-unstyled">
+                            <li>• Python</li>
+                            <li>• MySQL</li>
+                            <li>• Linux</li>
+                            <li>• Networking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Soft Skills -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Soft Skills</h5>
+                        <ul class="list-unstyled">
+                            <li>• Problem Solving</li>
+                            <li>• Communication Skills</li>
+                            <li>• Presentation Skills</li>
+                            <li>• Leadership Skills</li>
+                            <li>• Teamwork Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Language Skills -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Language Skills</h5>
+                        <ul class="list-unstyled">
+                            <li>• Arabic: Native</li>
+                            <li>• English: Very Good</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certs" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">🏆 Certifications</h2>
+        <div class="d-flex flex-wrap">
+            <span class="cert-badge bg-success text-white rounded-pill p-2">Cisco Certified Network Associate (CCNA) – Certified</span>
+            <span class="cert-badge bg-success text-white rounded-pill p-2">CyberOps Associate – Certified</span>
+            <span class="cert-badge bg-success text-white rounded-pill p-2">User Interface (HTML, CSS, JavaScript, Bootstrap) – Certified</span>
+            <span class="cert-badge bg-primary text-dark rounded-pill p-2">CompTIA Security+ (SY0-701) – Studying</span>
+            <span class="cert-badge bg-primary text-white rounded-pill p-2">SANS SEC 301: Intro to Cybersecurity – Studying</span>
+            <span class="cert-badge bg-warning text-dark rounded-pill p-2">Incident Response (DEPI) – In Progress</span>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">🚀 Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Cybersecurity Labs & CTF Challenges</h5>
+                        <p class="card-text">Conducted penetration testing on TryHackMe (THM) to exploit vulnerabilities like SQLi, XSS, and network sniffing.</p>
+                        <span class="badge bg-danger">Cybersecurity</span>
+                        <span class="badge bg-warning">Penetration Testing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Traffic Sign Detection (Deep Learning)</h5>
+                        <p class="card-text">Engineered a CNN model using PyTorch for traffic sign classification (95%+ accuracy).</p>
+                        <span class="badge bg-primary">PyTorch</span>
+                        <span class="badge bg-success">Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Remote Bluetooth-Controlled Car</h5>
+                        <p class="card-text">Integrated Arduino with Python to build a robotics system for real-time control.</p>
+                        <span class="badge bg-info">Arduino</span>
+                        <span class="badge bg-dark">Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">XO Game AI</h5>
+                        <p class="card-text">Developed a Tic-Tac-Toe solver using minimax algorithms for optimal gameplay.</p>
+                        <span class="badge bg-secondary">AI</span>
+                        <span class="badge bg-warning">Game Theory</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Vision Pipelines</h5>
+                        <p class="card-text">Designed image processing workflows and object detection models for coursework.</p>
+                        <span class="badge bg-success">Computer Vision</span>
+                        <span class="badge bg-primary">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Future Goals Section -->
+<section id="goals" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">🌟 Future Goals</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-unstyled fs-5">
+                            <li class="mb-3">✅ Earn OSCP and CEH certifications to deepen ethical hacking expertise</li>
+                            <li class="mb-3">🏆 Compete in global CTF events (DEF CON, Hack The Box)</li>
+                            <li class="mb-3">🔍 Intern with cybersecurity/AI teams to tackle real-world threats</li>
+                            <li>✍️ Publish technical blogs on AI-driven security solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="gradient-bg text-white py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fs-1 fw-bold">📬 Let's Connect</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="fs-5">
+                    📧 <a href="mailto:mahmoudsalman052004@gmail.com" class="text-white">E-Mail</a><br>
+                    📱 Phone Number : +201027481169<br>
+                    💼 Freelance : 
+                    <a href="https://mostaql.com/u/Mahmoudsalman4" class="text-white">مستقل (Mostaql)</a> | 
+                    <a href="https://khamsat.com/user/mahmoudasem4" class="text-white">خمسات (Khamsat)</a> | 
+                    <a href="https://www.fiverr.com/mahmoudasem/buying?source=avatar_menu_profile" class="text-white">Fiverr</a>
+                </p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-light mx-2">LinkedIn</a>
+                    <a href="#" class="btn btn-light mx-2">GitHub</a>
+                    <a href="#" class="btn btn-light mx-2">TryHackMe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="fs-5">🔐 Building secure AI systems today to protect tomorrow's innovations</p>
+        <p class="fs-5">&copy; 2025 Mahmoud Salman. All rights reserved</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
